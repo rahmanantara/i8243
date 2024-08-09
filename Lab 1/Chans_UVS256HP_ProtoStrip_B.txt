@@ -1,0 +1,26 @@
+DTChanMap,version=2.6:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1:dataformat=pogo2	Channel Map						
+							
+	DIB ID:			View Mode:	Signal		
+	USL Tag:						
+	Device Under Test		Tester Channel				
+	Pin Name	Package Pin	Type	Site 0	Site 1	Comment	
+	dir	Pin 1	I/O	18.e315	18.a358		For use with Digital Proto-strip DIB	
+	a1	Pin 2	I/O	18.e317	18.a353		Change Slot numbers per tester config	
+	a2	Pin 3	I/O	18.e319	18.a351		
+	a3	Pin 4	I/O	18.g319	18.a349		NOTE: This Chanmap setup to use Blocks 300 & 400!	
+	a4	Pin 5	I/O	18.g317	18.c351		
+	a5	Pin 6	I/O	18.g326	18.c353		
+	a6	Pin 7	I/O	18.g324	18.c358		
+	a7	Pin 8	I/O	18.e324	18.c360		
+	a8	Pin 9	I/O	18.e326	18.c362		
+	gnd	Pin 10	N/C				
+	b8	Pin 11	I/O	18.g304	18.a360		
+	b7	Pin 12	I/O	18.g339	18.a362		
+	b6	Pin 13	I/O	18.g337	18.a364		
+	b5	Pin 14	I/O	18.e337	18.c369		
+	b4	Pin 15	I/O	18.e335	18.c364		
+	b3	Pin 16	I/O	18.g335	18.c373		
+	b2	Pin 17	I/O	18.g328	18.c371		
+	b1	Pin 18	I/O	18.g330	18.a369		
+	oe	Pin 19	I/O	18.e330	18.a371		
+	vcc	Pin 20	DCVS	12.e408	12.e401		
