@@ -3,17 +3,17 @@
 "TOOL","_TDE"
 "ToolMode",0
 "WindowState",0
-"MainTop",2775
-"MainLeft",750
+"MainTop",3195
+"MainLeft",2805
 "MainWidth",14730
-"MainHeight",11310
+"MainHeight",11100
 "FullScreen",#FALSE#
 "ENDTOOL"
 "TOOLGROUP"
 "TOOL","_Group"
 "DockingArea",2
-"Height",9630
-"Width",6795
+"Height",9420
+"Width",7290
 "DockLine",0
 "DockingOffset",0
 "ToolbarArea",0
@@ -24,7 +24,7 @@
 "ToolOffset",540
 "ToolFocus",0
 "Tool1","InstanceEditor"
-"Tool1 Dim","6765 9585"
+"Tool1 Dim","7260 9375"
 "ToolCount",1
 "ENDTOOL"
 "ENDTOOLGROUP"

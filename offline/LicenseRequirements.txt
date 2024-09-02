@@ -3,7 +3,7 @@
 #FEATURE NAME                 ENABLED LEVEL    USED LICENSE COUNT   VERSION              
 HSDP_Enable                   1                22                   0.0                  
 HSDP_MemoryDepth              1                1                    0.0                  
-HSDP_Speed                    1                22                   0.0                  
-NumSlots                      1                11                   0.0                  
-System                        12               1                    0.0                  
+HSDP_Speed                    50               22                   0.0                  
+MainSlots                     Yes              1                    0.0                  
+TDA_Enable                    1                1                    0.0                  
 VS-800mA                      1                2                    0.0                  
