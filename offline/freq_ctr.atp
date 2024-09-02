@@ -1,0 +1,16 @@
+digital_inst = hsdp;
+opcode_mode = single;
+import tset tset0;
+srm_vector
+freq_ctr ( all_pins              )
+{
+global loopit:
+                    $tset tset0  > 0000000000000000000000 ; 
+                    $tset tset0  > 0000000000000000000000 ; 
+                    $tset tset0  > 0000000000000000000000 ; 
+                    $tset tset0  > 0000000000000000000000 ; 
+   repeat 10000     $tset tset0  > 0000000000000000000000 ; 
+                    $tset tset0  > 0000000000000000000000 ; 
+                    $tset tset0  > 0000000000000000000000 ; 
+    jump loopit     $tset tset0  > 0000000000000000000000 ; 
+}

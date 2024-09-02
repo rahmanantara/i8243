@@ -1,0 +1,129 @@
+    Device#: 5
+
+
+ Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
+<Functional_T1>
+ 0        0     Functional_T1   cont_pattern.patx     N/A               N/A                  
+<Functional_T2>
+ 1        0     Functional_T2   short_pattern.patx     N/A               N/A                  
+<Functional_T3>
+ 2        0     Functional_T3   open_pattern.patx     N/A               N/A                  
+
+ Number   Site  Test Name       Pin   Channel  Low            Measured           High           Force          Loc     
+<PinPMU_T1>
+ 3        0     PinPMU          p20   19.g128  -1.2000 V      -636.9446 mV       -100.0000 mV   -100.0000 uA   0       
+ 4        0     PinPMU          p21   19.g126  -1.2000 V      -636.7407 mV       -100.0000 mV   -100.0000 uA   0       
+ 5        0     PinPMU          p22   19.e126  -1.2000 V      -636.7239 mV       -100.0000 mV   -100.0000 uA   0       
+ 6        0     PinPMU          p23   19.e124  -1.2000 V      -636.9058 mV       -100.0000 mV   -100.0000 uA   0       
+ 7        0     PinPMU          p40   19.e130  -1.2000 V      -637.1208 mV       -100.0000 mV   -100.0000 uA   0       
+ 8        0     PinPMU          p41   19.e139  -1.2000 V      -637.8445 mV       -100.0000 mV   -100.0000 uA   0       
+ 9        0     PinPMU          p42   19.e147  -1.2000 V      -637.0161 mV       -100.0000 mV   -100.0000 uA   0       
+ 10       0     PinPMU          p43   19.e151  -1.2000 V      -636.6744 mV       -100.0000 mV   -100.0000 uA   0       
+ 11       0     PinPMU          p50   19.e128  -1.2000 V      -636.8789 mV       -100.0000 mV   -100.0000 uA   0       
+ 12       0     PinPMU          p51   19.g149  -1.2000 V      -633.2356 mV       -100.0000 mV   -100.0000 uA   0       
+ 13       0     PinPMU          p52   19.e137  -1.2000 V      -635.4973 mV       -100.0000 mV   -100.0000 uA   0       
+ 14       0     PinPMU          p53   19.e135  -1.2000 V      -635.4609 mV       -100.0000 mV   -100.0000 uA   0       
+ 15       0     PinPMU          p60   19.g130  -1.2000 V      -634.6710 mV       -100.0000 mV   -100.0000 uA   0       
+ 16       0     PinPMU          p61   19.g104  -1.2000 V      -634.6337 mV       -100.0000 mV   -100.0000 uA   0       
+ 17       0     PinPMU          p62   19.g102  -1.2000 V      -634.4922 mV       -100.0000 mV   -100.0000 uA   0       
+ 18       0     PinPMU          p63   19.e102  -1.2000 V      -634.5009 mV       -100.0000 mV   -100.0000 uA   0       
+ 19       0     PinPMU          p70   19.g139  -1.2000 V      -636.8213 mV       -100.0000 mV   -100.0000 uA   0       
+ 20       0     PinPMU          p71   19.g147  -1.2000 V      -634.6108 mV       -100.0000 mV   -100.0000 uA   0       
+ 21       0     PinPMU          p72   19.e104  -1.2000 V      -634.3693 mV       -100.0000 mV   -100.0000 uA   0       
+ 22       0     PinPMU          p73   19.e108  -1.2000 V      -634.2933 mV       -100.0000 mV   -100.0000 uA   0       
+ 23       0     PinPMU          cs    19.g106  -1.2000 V      -635.0462 mV       -100.0000 mV   -100.0000 uA   0       
+ 24       0     PinPMU          prog  19.g124  -1.2000 V      -636.7442 mV       -100.0000 mV   -100.0000 uA   0       
+<SeqLeakage1>
+ 25       0     SeqLeakage1     p20   19.g128  -30.0000 uA    -740.8848 nA       10.0000 uA     -400.0000 mV   0       
+ 26       0     SeqLeakage1     p21   19.g126  -30.0000 uA    -739.6724 nA       10.0000 uA     -400.0000 mV   0       
+ 27       0     SeqLeakage1     p22   19.e126  -30.0000 uA    -741.5188 nA       10.0000 uA     -400.0000 mV   0       
+ 28       0     SeqLeakage1     p23   19.e124  -30.0000 uA    -731.2807 nA       10.0000 uA     -400.0000 mV   0       
+<SeqLeakage2>
+ 29       0     SeqLeakage2     cs    19.g106  -30.0000 uA    994.7090 pA        10.0000 uA     0.0000 V       0       
+ 30       0     SeqLeakage2     prog  19.g124  -30.0000 uA    -4.2784 nA         10.0000 uA     0.0000 V       0       
+<VBT_outpleakage1>
+ 31       0     VBT_outpleakage p40   19.e130  -10.0000 uA    12.9484 nA         20.0000 uA     2.7000 V       0       
+ 32       0     VBT_outpleakage p41   19.e139  -10.0000 uA    -6.2773 nA         20.0000 uA     2.7000 V       0       
+ 33       0     VBT_outpleakage p42   19.e147  -10.0000 uA    21.2322 nA         20.0000 uA     2.7000 V       0       
+ 34       0     VBT_outpleakage p43   19.e151  -10.0000 uA    -15.6721 nA        20.0000 uA     2.7000 V       0       
+ 35       0     VBT_outpleakage p50   19.e128  -10.0000 uA    -8.2223 nA         20.0000 uA     2.7000 V       0       
+ 36       0     VBT_outpleakage p51   19.g149  -10.0000 uA    10.9434 nA         20.0000 uA     2.7000 V       0       
+ 37       0     VBT_outpleakage p52   19.e137  -10.0000 uA    11.4867 nA         20.0000 uA     2.7000 V       0       
+ 38       0     VBT_outpleakage p53   19.e135  -10.0000 uA    11.7304 nA         20.0000 uA     2.7000 V       0       
+ 39       0     VBT_outpleakage p60   19.g130  -10.0000 uA    12.0910 nA         20.0000 uA     2.7000 V       0       
+ 40       0     VBT_outpleakage p61   19.g104  -10.0000 uA    6.3354 nA          20.0000 uA     2.7000 V       0       
+ 41       0     VBT_outpleakage p62   19.g102  -10.0000 uA    9.1071 nA          20.0000 uA     2.7000 V       0       
+ 42       0     VBT_outpleakage p63   19.e102  -10.0000 uA    4.9565 nA          20.0000 uA     2.7000 V       0       
+ 43       0     VBT_outpleakage p70   19.g139  -10.0000 uA    18.8337 nA         20.0000 uA     2.7000 V       0       
+ 44       0     VBT_outpleakage p71   19.g147  -10.0000 uA    9.7393 nA          20.0000 uA     2.7000 V       0       
+ 45       0     VBT_outpleakage p72   19.e104  -10.0000 uA    24.3935 nA         20.0000 uA     2.7000 V       0       
+ 46       0     VBT_outpleakage p73   19.e108  -10.0000 uA    -16.5410 nA        20.0000 uA     2.7000 V       0       
+<OutputZ_leak_vbt1>
+ 47       0     OutputZ_leak_vb p40   19.e130  -10.0000 uA    -6.2060 nA         20.0000 uA     0.0000 V       0       
+ 48       0     OutputZ_leak_vb p41   19.e139  -10.0000 uA    -12.4014 nA        20.0000 uA     0.0000 V       0       
+ 49       0     OutputZ_leak_vb p42   19.e147  -10.0000 uA    -9.9692 nA         20.0000 uA     0.0000 V       0       
+ 50       0     OutputZ_leak_vb p43   19.e151  -10.0000 uA    -5.7337 nA         20.0000 uA     0.0000 V       0       
+ 51       0     OutputZ_leak_vb p50   19.e128  -10.0000 uA    -8.2223 nA         20.0000 uA     0.0000 V       0       
+ 52       0     OutputZ_leak_vb p51   19.g149  -10.0000 uA    4.8212 nA          20.0000 uA     0.0000 V       0       
+ 53       0     OutputZ_leak_vb p52   19.e137  -10.0000 uA    3.0631 nA          20.0000 uA     0.0000 V       0       
+ 54       0     OutputZ_leak_vb p53   19.e135  -10.0000 uA    5.6367 nA          20.0000 uA     0.0000 V       0       
+ 55       0     OutputZ_leak_vb p60   19.g130  -10.0000 uA    -4.7446 nA         20.0000 uA     0.0000 V       0       
+ 56       0     OutputZ_leak_vb p61   19.g104  -10.0000 uA    -4.3508 nA         20.0000 uA     0.0000 V       0       
+ 57       0     OutputZ_leak_vb p62   19.g102  -10.0000 uA    4.5153 nA          20.0000 uA     0.0000 V       0       
+ 58       0     OutputZ_leak_vb p63   19.e102  -10.0000 uA    -10.2943 nA        20.0000 uA     0.0000 V       0       
+ 59       0     OutputZ_leak_vb p70   19.g139  -10.0000 uA    8.1587 nA          20.0000 uA     0.0000 V       0       
+ 60       0     OutputZ_leak_vb p71   19.g147  -10.0000 uA    -7.8988 nA         20.0000 uA     0.0000 V       0       
+ 61       0     OutputZ_leak_vb p72   19.e104  -10.0000 uA    19.0574 nA         20.0000 uA     0.0000 V       0       
+ 62       0     OutputZ_leak_vb p73   19.e108  -10.0000 uA    4.0400 nA          20.0000 uA     0.0000 V       0       
+
+ Number   Site  Test Name       Pattern             1st Failed Cycle  Total Failed Cycles  
+<Functional_T4>
+ 63       0     Functional_T4   func_test.patx      N/A               N/A                  
+
+ Number   Site  Test Name       Pin   Channel  Low            Measured           High           Force          Loc     
+<icc_static_vbt11>
+ 64       0     Icc_static      vcc   15.e201  10.0000 uA     21.1046 uA         500.0000 uA    1.8000 V       0       
+<Icc_dynamic_vbt1>
+ 65       0     Icc_dynamic     vcc   15.e201  10.0000 uA     20.6754 uA         500.0000 uA    1.8000 V       0       
+Freq Counter Test
+Running test..
+Time interval= 0.000675ms
+<VBT_freq1>
+ 66       0     VBT_freq1       p40   19.e130  0.8000 M       1.4815 M           1.5000 M       0.0000         0       
+ 67       0     VBT_freq1       p41   19.e139  0.8000 M       1.4815 M           1.5000 M       0.0000         0       
+ 68       0     VBT_freq1       p42   19.e147  0.8000 M       1.4815 M           1.5000 M       0.0000         0       
+ 69       0     VBT_freq1       p43   19.e151  0.8000 M       1.4815 M           1.5000 M       0.0000         0       
+No. of pulses =1
+Freq of pinport4 Site:0 is = 1.48148148148148 MHz
+<Functional_T5>
+ 71       0     Functional_T5   p50   19.e128  N/A            148.0000 m         N/A            0.0000         0       
+Characterization setup 'p50', step 'vol', Adjust: p50_vol
+ 72       0     Functional_T5   p50   19.e128  N/A            3.2820             N/A            0.0000         0       
+Characterization setup 'p50', step 'voh', Adjust: p50_voh
+<Functional_T6>
+ 74       0     Functional_T6   p50   19.e128  150.0000 ns    234.0000 ns        350.0000 ns    0.0000         0       
+Characterization setup 'rise', step 'rise_10pt', Measure: Open
+ 75       0     Functional_T6   p50   19.e128  150.0000 ns    248.0000 ns        350.0000 ns    0.0000         0       
+Characterization setup 'rise', step 'rise_90pt', Measure: Open
+ 
+================
+Site 0
+================
+The 10% point is 234 nS
+The 90% point is 248 nS
+Rise time for site 0 = 14 nS
+ 
+ 76       0     Functional_T6   A8    0        1.0000 ns      14.0000 ns         100.0000 ns    0.0000         0       
+ 
+End rise time interpose function
+================================ 
+ 
+
+ Site Failed tests/Executed tests
+------------------------------------
+    0       0      75
+
+ Site    Sort     Bin
+------------------------------------
+    0       1       1
+=========================================================================
