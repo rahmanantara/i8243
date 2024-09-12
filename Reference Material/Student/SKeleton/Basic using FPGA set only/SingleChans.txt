@@ -1,0 +1,50 @@
+DTChanMap,version=2.4:platform=Jaguar:toprow=-1:leftcol=-1:rightcol=-1	Channel Map									
+										
+	DIB ID:			View Mode:	Pogo		Site Replication:		USL Tag:	
+										
+	Device Under Test		Tester Channel							
+	Pin Name	Package Pin	Type	Site 0	Comment					
+	HS_IO_1		I/O	1.z422						
+	HS_IO_2		I/O	1.z420						
+	HS_IO_3		I/O	1.z416						
+	HS_IO_4		I/O	1.z414						
+	LS_IO_1		I/O	1.z418						
+	LS_IO_2		I/O	1.ab418						
+	LS_IO_3		I/O	1.ab416						
+	LS_IO_4		I/O	1.ab414						
+	LS_IO_5		I/O	1.ad422						
+	LS_IO_6		I/O	1.ad420						
+	LS_IO_7		I/O	1.ab422						
+	LS_IO_8		I/O	1.ab420						
+	LS_IO_9		I/O	1.ad418						
+	LS_IO_10		I/O	1.ad416						
+	LS_IO_11		I/O	1.ad414	1.ch14					
+	LS_IO_12		I/O	1.ad412	1.ch15					
+	LS_IO_13		I/O	1.r422	1.ch32					
+	LS_IO_14		I/O	1.r420	1.ch33					
+	HS_DIFF_CLK_P		I/O	1.x422						
+	HS_DIFF_CLK_N		I/O	1.x420						
+	HS_DIFF_DATA_P		I/O	1.t422						
+	HS_DIFF_DATA_N		I/O	1.t420						
+	VCC		DCVI	6.a311	6.g310					
+	VCCIO		DCVI	6.c411						
+	Ain		DCVI	6.c315						
+	LS_IO_1_S1		I/O	1.f306						
+	LS_IO_2_S1		I/O	1.d306						
+	LS_IO_3_S1		I/O	1.d308						
+	LS_IO_4_S1		I/O	1.d310						
+	LS_IO_5_S1		I/O	1.b302						
+	LS_IO_6_S1		I/O	1.b304						
+	LS_IO_7_S1		I/O	1.d302						
+	LS_IO_8_S1		I/O	1.d304						
+	LS_IO_9_S1		I/O	1.b306						
+	LS_IO_10_S1		I/O	1.b308						
+	HS_IO_1_S1		I/O	1.f304						
+	HS_IO_2_S1		I/O	1.f302						
+	HS_IO_3_S1		I/O	1.f308						
+	HS_IO_4_S1		I/O	1.f310						
+	LS_IO_11_S1		I/O	1.b310						
+	LS_IO_12_S1		I/O	1.b312						
+	LS_IO_13_S1		I/O	1.n302						
+	LS_IO_14_S1		I/O	1.n304						
+										
